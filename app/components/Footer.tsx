@@ -1,5 +1,5 @@
 export default async function Footer() {
-    return <footer className="bg-stone-700 py-6 flex flex-row justify-center items-center">
+    return <footer className="bg-stone-700 py-6 flex flex-row justify-center items-center w-full">
             <p className="font-body text-white text-center">
                 <small>
                     &copy; {new Date().getFullYear()} 

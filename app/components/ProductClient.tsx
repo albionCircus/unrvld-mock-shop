@@ -63,7 +63,7 @@ export default function ProductList({ products }: { products: Product[] }) {
           <option value="women">Women</option>
         </select>
       </div>
-      <div className="grid grid-cols-1 gap-x-8 gap-y-16 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 gap-x-8 gap-y-16 mb-8 md:grid-cols-2 lg:grid-cols-3">
         {sortedProducts.map((product) => (
           <article
             key={product.id}

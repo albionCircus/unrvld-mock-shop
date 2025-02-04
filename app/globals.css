@@ -41,7 +41,7 @@ h4 {
 p {
   font-family: var(--font-geist-sans);
   font-weight: 450;
-  @apply max-w-3xl text-lg text-slate-600 leading-snug;
+  @apply text-lg text-slate-600 leading-snug;
 }
 
 section {
